@@ -21,7 +21,7 @@ public class ApplianceLogic {
         return appliances;
     }
 
-    public void addAppliance (Appliance appliance){
+    public void addAppliance(Appliance appliance) {
         appliances.add(appliance);
     }
 

@@ -2,7 +2,7 @@ package com.learn.java.basic.entity;
 
 import java.util.Objects;
 
-public class WashingMachine extends Appliance{
+public class WashingMachine extends Appliance {
 
     private int washerCapacity;
     private int rotationalSpeed;

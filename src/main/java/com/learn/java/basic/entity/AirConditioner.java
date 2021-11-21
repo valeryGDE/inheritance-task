@@ -2,7 +2,7 @@ package com.learn.java.basic.entity;
 
 import java.util.Objects;
 
-public class AirConditioner extends Appliance{
+public class AirConditioner extends Appliance {
 
     private double roomSize;
     private String conditionerType;
