@@ -49,7 +49,10 @@ public class AirConditioner extends Appliance {
     @Override
     public String toString() {
         return "AirConditioner{" +
-                "roomSize=" + roomSize +
+                "price=" + super.getPrice() +
+                ", manufacturer=" + super.getManufacturer() +
+                ", type=" + super.getType() +
+                ", roomSize=" + roomSize +
                 ", conditionerType='" + conditionerType + '\'' +
                 '}';
     }

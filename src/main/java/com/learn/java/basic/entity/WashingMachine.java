@@ -48,7 +48,10 @@ public class WashingMachine extends Appliance {
     @Override
     public String toString() {
         return "WashingMachine{" +
-                "washerCapacity=" + washerCapacity +
+                "price=" + super.getPrice() +
+                ", manufacturer=" + super.getManufacturer() +
+                ", type=" + super.getType() +
+                ", washerCapacity=" + washerCapacity +
                 ", rotationalSpeed=" + rotationalSpeed +
                 '}';
     }

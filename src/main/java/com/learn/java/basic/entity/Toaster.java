@@ -39,7 +39,10 @@ public class Toaster extends Appliance {
     @Override
     public String toString() {
         return "Toaster{" +
-                "numberOfSlots=" + numberOfSlots +
+                "price=" + super.getPrice() +
+                ", manufacturer=" + super.getManufacturer() +
+                ", type=" + super.getType() +
+                ", numberOfSlots=" + numberOfSlots +
                 '}';
     }
 }

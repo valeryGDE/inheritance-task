@@ -27,6 +27,6 @@ public class App {
 
         System.out.println(applianceLogic.getAppliances().contains(new Toaster(50, "Bosch", "Home", 2)));
 
-        System.out.println(applianceLogic.searchByPrice(10, 120));
+        System.out.println(applianceLogic.searchByPrice(180, 300));
     }
 }
